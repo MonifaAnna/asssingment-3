@@ -20,14 +20,82 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            FontFamily:"manrope"
-          }
+            primary:"#ABEF5F",
+            secondary:"#ABEF5F80",
+            body:""
+          },
+          fontFamily: {
+            manrope:"Manrope"
+          },
         }
       }
     }
   </script>
 </head>
-<body>
-    
+<body class="font-manrope bg-slate-50 ">
+    <header class="w-11/12 mx-auto  pt-12 pb-32">
+        <!-- navbar start -->
+        <div class="navbar ">
+            <div class="navbar-start ">
+                <div class= "flex justify-center items-center ">
+                <i class="bg-primary p-2 rounded-full -rotate-45 fa-solid fa-arrow-right  sm:ml-0 "></i>
+                <a class="text-[32px] font-bold pl-2">Rinterio</a>
+            </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                        <li><a href="" class="text-[#494949] text-[16px] font-extrabold">Home</a></li>
+                        <li><a href="" class="text-[#737373] text-[16px] font-normal">Services</a></li>
+                        <li><a href="" class="text-[#737373] text-[16px] font-normal">Portfolio</a></li>
+                        <li><a href="" class="text-[#737373] text-[16px] font-normal">Blogs</a></li>
+                        <li><a href="" class="text-[#737373] text-[16px] font-normal">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end  md:w-[600px]">
+            <div class="lg:space-x-4 sm:space-x-2 hidden sm:block  ">
+                <i class="fa-solid fa-magnifying-glass bg-[#FFFFFF] text-[#737373] border rounded-full p-2"></i>
+                <i class="fa-solid fa-cart-shopping bg-[#FFFFFF] text-[#737373] border rounded-full p-2"></i>
+                <a class=" bg-primary text-xl font-bold rounded-[32px] py-4 px-5">
+                Book Consult
+                <i class="bg-slate-950 text-white p-2 rounded-full -rotate-45 fa-solid fa-arrow-right "></i>
+                </a>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class=" lg:hidden">
+                        <i class="fa-solid fa-bars text-2xl bg-[#FFFFFF] ml-20 text-[#737373] border rounded-full py-2 px-4"></i>
+                    </div>
+                    <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box lg:hidden z-[1] mt-3 p-2 shadow">
+                    <li><a href="" class="text-[#494949] text-[16px] font-extrabold">Home<a></li>
+                    <li><a href="" class="text-[#737373] text-[16px] font-normal">Services</a></li>
+                    <li><a href="" class="text-[#737373] text-[16px] font-normal">Portfolio</a></li>
+                    <li><a href="" class="text-[#737373] text-[16px] font-normal">Blogs</a></li>
+                    <li><a href="" class="text-[#737373] text-[16px] font-normal">Contact Us</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <!-- banner section -->
+         <section>
+            <div class="flex flex-col items-center justify-center">
+            <!-- image-content -->
+             <div>
+                <img src="./assets/banner.png" alt="">
+             </div>
+             <!-- text-content -->
+              <div class="lg:w-4/6 text-center space-y-8 pt-8">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                <p class=" text-[rgb(73, 73, 73)] pb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                 <a class=" bg-secondary text-xl font-bold rounded-[32px] py-4 px-5">
+                    View Details
+                <i class="bg-slate-950 text-white p-2 rounded-full -rotate-45 fa-solid fa-arrow-right "></i>
+                </a>
+              </div>
+              </div>
+         </section>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
